@@ -1,12 +1,19 @@
 import socket
 import os
 import time
+import sys
+f = open('ip.txt')
+ip = f.read()
+f.close()
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(('localhost', 8000))
-#s.connect(('212.93.106.79', 19132))
-while True:
-    s.send(str('0x35 1 1 0 minecraft:diamond_chestplate').encode("utf-8"))
-    time.sleep(0.2)
-                
+try:
+    s.connect((str(ip), 19132))
+    s.send(str(sys.argv[1]+' ' + sys.argv[2]+' ' + sys.argv[3]+' ' + sys.argv[4]+' ' + sys.argv[5]+' ' + sys.argv[6]).encode("utf-8"))
+    s.close()     
+except KeyboardInterrupt:
+    sys.exit(0)
+except: 
+    print('[Error] Unable to connect to server')
+    os.system('pause')           
 
 
