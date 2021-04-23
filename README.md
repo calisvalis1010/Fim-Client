@@ -9,11 +9,11 @@ Planned features:
  fly (maybe on V2/V3),
  autoclicker,
  autobridger,
- hotkeys (maybe V1/V2),
- lagger.
+ hotkeys (maybe V1/V2).
+ 
 
 
-Currently testing packet_send and reading 1.14 packet protocol.
+Currently working on Fim client V1 and reading 1.14 packet protocol.
 V1 outcoming date: july 2021?
 
 
