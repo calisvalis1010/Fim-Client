@@ -1,5 +1,5 @@
 # fim_client-minecraft_education-hack
-A cmd-base minecraft Education edition hack client. Still under hard development and there is no versions out right now.
+A cmd-python-base minecraft Education edition hack client. Still under hard development and there is no versions out right now.
 Basicly a external 1.14 client because mced is on 1.14.??.
 
 Planned features:
