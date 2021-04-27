@@ -22,6 +22,7 @@ while True:
     inputw = input('fim client >')
     if inputw in commands:
         if inputw =='tp':
+            print('Warning! only visible to other players!')
             f = open('username.txt')
             fileline = f.read()
             f.close()
