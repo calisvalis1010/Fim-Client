@@ -1,18 +1,15 @@
 # fim_client-minecraft_education-hack
-A cmd-python-base minecraft Education edition hack client. Still under hard development and there is no versions out right now.
+A cmd-python-base minecraft Education edition hack client. Still under hard development. There is only V0.0.1 BETA version out.
 Basicly a external 1.14 client because mced is on 1.14.??.
 
-Planned features:
- give command,
+Features:
+ 
  setcontainer command,
  effect command,
  tp command,
- fly (maybe on V2/V3),
- autoclicker,
- autobridger,
- hotkeys (maybe V1/V2).
+ health.
  
- For give/setcontainer/effect commands use id's from here: https://minecraft.fandom.com/wiki/Bedrock_Edition_data_values .
+ For give/setcontainer commands use id's from here: https://minecraft.fandom.com/wiki/Bedrock_Edition_data_values / for effect : https://minecraft.fandom.com/wiki/Effect .
 
 
 Currently working on Fim client V1 and reading 1.14 packet protocol.
