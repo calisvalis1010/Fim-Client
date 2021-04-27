@@ -1,4 +1,4 @@
-# fim_client-minecraft_education-hack
+# Fim Client
 A cmd-python-base minecraft Education edition hack client. Still under hard development. There is only V0.0.1 BETA version out.
 Basicly a external 1.14 client because mced is on 1.14.??.
 
