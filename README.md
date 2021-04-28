@@ -1,6 +1,6 @@
 # Fim Client
 A cmd-python-base minecraft bedrock hack client. Still under hard development. There is only V0.0.1 ALPHA version out.
-Basicly a external 1.14 client because mced is on 1.14.??.
+Basicly a external minecraft client.
 
 Features:
  
